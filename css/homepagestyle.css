@@ -1,0 +1,162 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --dark: #1F0F66;
+  --light: #EEEEEE;
+  --blue: rgb(179, 30, 30);
+}
+
+.white, a.white{
+	color: var(--white);
+}
+
+.black, a.black{
+	color: var(--black);
+}
+
+.dark, a.dark{
+	color: var(--dark);
+}
+
+.light, a.light{
+	color: var(--light);
+}
+
+.blue, a.blue{
+	color: var(--blue);
+}
+
+.bg-blue{
+	background:var(--blue);
+	color:var(--white);
+}
+
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Inter UI', sans-serif;
+	font-size:1rem;
+	line-height: 1.25;
+}
+
+a{
+	color:var(--blue);
+}
+
+nav{
+	position: fixed;
+	z-index: 10;
+	bottom:0;
+	left:0;
+	right:0;
+	background:rgba(255,255,255,0.95);
+	border-top:2px solid var(--white);
+}
+
+nav .item{
+	text-align: center;
+	text-decoration: none;
+	color:var(--dark);
+	font-size:.8rem;
+	padding:.5rem 0;
+	font-weight: 500;
+	transition: .2s ease all;
+}
+
+nav .item.active{
+	color:var(--blue;);
+}
+
+nav .item.active svg{
+	animation: zap .2s ease forwards;
+}
+
+nav .item path, nav .item g{
+	transition: .2s ease all;
+}
+
+nav .item.active path, nav .item.active g{
+	fill:rgb(179, 30, 30);
+}
+
+nav .item:not(.active){
+	opacity: .4;
+}
+
+nav .label{
+	margin:0;
+}
+
+.recipe .image{
+	transition: .2s ease opacity;
+}
+
+.recipe:hover .image{
+	opacity:.6;
+}
+
+.ratio{
+	padding-top:50%;
+}
+
+.bg-cover{
+	background-size:cover;
+	background-position:50% 50%;
+}
+
+.slider-outer{
+	width:100%;
+	overflow: hidden;
+}
+
+#slider{
+	width:400%;
+	transition: .3s ease all;
+	display: flex;
+}
+
+#slider.recipes{
+	transform: translateX(0);
+}
+
+#slider.search{
+	transform: translateX(-25%);
+}
+#slider.books{
+	transform: translateX(-50%);
+}
+#slider.blog{
+	transform: translateX(-75%);
+}
+
+.blog{
+	height: 100%;
+	background: var(--light);
+}
+
+.card{
+	background:var(--white);
+	padding:1rem;
+	text-decoration: none;
+}
+.card .action{
+	text-transform: uppercase;
+	font-size: 75%;
+	font-weight: bold;
+	margin-bottom:0;
+}
+
+
+@keyframes zap {
+    0% {
+        transform: scale(1.0);
+    }
+    50% {
+        transform: scale(1.2) rotate(8deg);
+    }
+    100%{
+    	transform: scale(1.0);
+    }
+}

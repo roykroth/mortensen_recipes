@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Don Mortensen's Beef Jerky of Insane Goodness
+title: Don Mortensen's Beef Jerky
 cooktime: 10 hours
 activetime: less than 10 hours
 ingredients:
