@@ -836,7 +836,7 @@ body {
 }
 
 a {
-  color: #007FFF;
+  color: rgb(179, 30, 30);
   text-decoration: none;
 }
 
@@ -857,7 +857,7 @@ hr {
 
 .button {
   color: white;
-  background-color: #007FFF;
+  background-color: rgb(179, 30, 30);
   border-radius: 3px;
   transition-duration: .05s;
   transition-timing-function: ease-out;
@@ -893,7 +893,7 @@ hr {
 
 .field-light:focus {
   outline: none;
-  border-color: #007FFF;
+  border-color: rgb(179, 30, 30);
   box-shadow: 0 0 0 2px rgba(0, 127, 255, 0.5);
 }
 
@@ -1172,7 +1172,7 @@ input[type=range] {
 .white { color: #fff }
 
 .aqua  { color: #7fdbff }
-.blue  { color: #007FFF }
+.blue  { color: rgb(179, 30, 30) }
 .navy  { color: #001f3f }
 .teal  { color: #39cccc }
 .green { color: #2ecc40 }
@@ -1192,7 +1192,7 @@ input[type=range] {
 .bg-white  { background-color: #fff }
 
 .bg-aqua  { background-color: #7fdbff }
-.bg-blue  { background-color: #007FFF }
+.bg-blue  { background-color: rgb(179, 30, 30) }
 .bg-navy  { background-color: #001f3f }
 .bg-teal  { background-color: #39cccc }
 .bg-green { background-color: #2ecc40 }
@@ -1212,7 +1212,7 @@ input[type=range] {
 .bg-darken-4 { background-color: rgba(0,0,0,.5) }
 
 .border-aqua  { border-color: #7fdbff }
-.border-blue  { border-color: #007FFF }
+.border-blue  { border-color: rgb(179, 30, 30) }
 .border-navy  { border-color: #001f3f }
 .border-teal  { border-color: #39cccc }
 .border-green { border-color: #2ecc40 }
@@ -1321,7 +1321,7 @@ input::placeholder {
 input:focus,
 textarea:focus,
 select:focus {
-  border-color: #007FFF;
+  border-color: rgb(179, 30, 30);
 }
 
 input[type="radio"],
@@ -1341,9 +1341,9 @@ button {
   text-transform: uppercase;
   padding: 15px 26px;
   color: #FFF;
-  background-color: #007FFF;
+  background-color: rgb(179, 30, 30);
   border-radius: 4px;
-  border: 1px solid #007FFF;
+  border: 1px solid rgb(179, 30, 30);
   text-align: center;
   width: 100%;
 }
