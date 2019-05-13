@@ -94,9 +94,13 @@ function extractQuantity(ingredient){
 
 function scaleIngredient(bareIngredient, quantity, scale = 1){
     let matchLength;
-    if (quantity == ""){
+    if (quantity == "" && scale !== 1){
         matchLength = 0
         quantity = '1'
+    }
+    else if (quantity == ""){
+        matchLength = 0
+        quantity = '0'
     }
     else {
         matchLength = quantity.length
@@ -185,5 +189,5 @@ function scaleRecipe(scale = 1){
     scaleYield(scale);
 }
 function liveScaleRecipe(event){
-    scaleRecipe(this.options[this.selectedIndex].value)
+    scaleRecipe(toNumber(this.options[this.selectedIndex].value))
 }
