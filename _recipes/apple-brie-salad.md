@@ -4,6 +4,7 @@ title: Apple Brie Salad
 yield: 8 Servings
 activetime: 10 minutes
 cooktime: 10 minutes
+tags: Thanksgiving
 ingredients:
 - 1 6 oz bag mixed greens
 - 4 oz brie cheese, cubed

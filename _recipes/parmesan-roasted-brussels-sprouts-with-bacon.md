@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Parmesan Roasted Brussels Sprouts with Bacon
-
+tags: Thanksgiving
 ingredients:
 - 2 lbs brussels sprouts
 - 2 tbsp olive oil
