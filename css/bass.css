@@ -1371,3 +1371,7 @@ label.light {
   font-weight: 300;
   display: inline;
 }
+
+.post-title {
+  margin-top: 50pt
+}
