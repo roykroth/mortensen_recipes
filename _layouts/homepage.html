@@ -2,7 +2,16 @@
 <html lang="en">
 	
 {% include head.html %}
+<style>
+.search-input {
+    width: 100% !important;
+    padding: .75rem !important;
+    box-sizing: border-box !important;
+    font-size: 1rem !important;
+		font-family: 'Inter UI', sans-serif !important;
 
+}
+</style>
 <body>
 
 <div class="slider-outer">
@@ -28,7 +37,7 @@
 	
 	<div class="search container max-width-2 p2">
 			<div id="search-container">
-			<input type="text" id="search-input" placeholder="Search titles or ingredients...">
+			<input type="text" id="search-input" class = "search-input" placeholder="Search titles or ingredients...">
 			</div>
 	</div>
 
